@@ -21,8 +21,8 @@
                     "createdAt": "2024-02-12T19:02:04.046Z",
                     "updatedAt": "2024-02-12T19:02:04.046Z",
                     "__v": 0,
-                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65aec7acb85de05286d2e6df/projects/65c257c7922844b5d180da2a/assets/65ca6b2b12f6cb8ed5e56543?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240212%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240212T190204Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=9d59e257314aa3e71ba925981a11048c0231c4dae9d094b52ce4e7c8a6e6f431c3dc8a245e7ad5345900b54d40c0a152d3f4dc8e85505cf68503ce2b1ae8760461b5e379bc150be37a0084185a5df68be333e630f0337b01415d515f9e7803c2b0f1ed0bcca6164b64a5e235c099515f97d07dae52f0847ce0a3971e07e7103c3f8bc5ba96335836025f0fc4721f536e0afaed3ec2e4be42b6afbbee96ef201bb32d131dfffeceff92dfa769331f89ffa09049204830d6f6eb54459511939786faf4877e613cb94cc1ac6f71a0d45260937eaf45eb9a98086ea1656e9cad56b75f97d208552dc6124ed139ed607af9e7a9a0da90df842851c53780944150ac0a",
-                    "signedUrlExpirationTime": 1707937324076
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65aec7acb85de05286d2e6df/projects/65c257c7922844b5d180da2a/assets/65ca6b2b12f6cb8ed5e56543?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240225%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240225T003313Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=b6efc241720e1b4581e93552e4edfe421ee0db3d57088b55036be80df730fd163a672f19ca142f2259ca53590b56216dda45167e7687186df8bcb121b45c22d3279c7407eb6f44664c746317244ba15c1a0850b6f7ec566a912657756884b02e2334bcae7a7420d145fde4fddcba8bd30e9e2ce61123b373905067c64b05776547ea71175ff444fd66e3dec16c4648d7b3b2e3929f1399263fd0b9fbb260759d1541e1aadd953961ef044a295b0505e20ebb9976d0a34bd3d3dab894afefb9a927bb7d5f72e901771d0360f770ef0a648ea54bd644e04124310bfb70c5e3ccb0b49a0de88d7a9a02f50935b56e454712bbca12504dd1617744a5f1619b517546",
+                    "signedUrlExpirationTime": 1708993993296
                 }
             },
             "backendUpgradeVersion": 24,
@@ -80,6 +80,9 @@
             "components": {
                 "children": [
                     {
+                        "id": "833199e4-281c-4e57-aaba-42c604dabb6e"
+                    },
+                    {
                         "type": "Drawer Navigator",
                         "translatedName": "Drawer Navigator",
                         "reactType": "DrawerNavigator",
@@ -110,9 +113,6 @@
                         "id": "bdd0357c-2680-46a7-b44c-75943103dae5",
                         "thunkableVersion": 444,
                         "name": "Drawer_Navigator1"
-                    },
-                    {
-                        "id": "833199e4-281c-4e57-aaba-42c604dabb6e"
                     }
                 ]
             },
@@ -221,7 +221,7 @@
             "customProperties": [],
             "modules": [],
             "usesDragDropUi": true,
-            "totalCopy": "0",
+            "totalCopy": "2",
             "totalStar": "0",
             "starAction": "star",
             "variables": {
