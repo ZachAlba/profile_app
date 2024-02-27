@@ -21,8 +21,8 @@
                     "createdAt": "2024-02-12T19:02:04.046Z",
                     "updatedAt": "2024-02-12T19:02:04.046Z",
                     "__v": 0,
-                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65aec7acb85de05286d2e6df/projects/65c257c7922844b5d180da2a/assets/65ca6b2b12f6cb8ed5e56543?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240225%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240225T003313Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=b6efc241720e1b4581e93552e4edfe421ee0db3d57088b55036be80df730fd163a672f19ca142f2259ca53590b56216dda45167e7687186df8bcb121b45c22d3279c7407eb6f44664c746317244ba15c1a0850b6f7ec566a912657756884b02e2334bcae7a7420d145fde4fddcba8bd30e9e2ce61123b373905067c64b05776547ea71175ff444fd66e3dec16c4648d7b3b2e3929f1399263fd0b9fbb260759d1541e1aadd953961ef044a295b0505e20ebb9976d0a34bd3d3dab894afefb9a927bb7d5f72e901771d0360f770ef0a648ea54bd644e04124310bfb70c5e3ccb0b49a0de88d7a9a02f50935b56e454712bbca12504dd1617744a5f1619b517546",
-                    "signedUrlExpirationTime": 1708993993296
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65aec7acb85de05286d2e6df/projects/65c257c7922844b5d180da2a/assets/65ca6b2b12f6cb8ed5e56543?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240227%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240227T004825Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=1db45f71829ea6d7c09bea233ef963fb49ca385969f5777a0bceb7de5d470ca35a052d5c8d12e9fd201f2512d95f3bdcdda2237a10981d7e242a65f9c7a2cf579e5c808b740fb50792cf40b9b81293b81393b23ab1a75dc1ba90f39d9a826cd60ab0f409548c09dbaef9385281a5c0db23c921c597c9ee0f0f137a1c0af2ea64d1b6f8c6742149715e2a9d1b387ed92511dc01bc41ab9b77984406f5420ddfdc8b5666f55e3608171cc9e96c5be87aafbdcae8596c25c140608193dcfec00f6400d93a515460b8e2ed05ba76acdbffad3e889509febc83ded65126349090becdc097e41e708a6bd8e001564a4456e17518f25ad7c9d1a5e71c90db0642bb2010",
+                    "signedUrlExpirationTime": 1709167705763
                 }
             },
             "backendUpgradeVersion": 24,
@@ -104,10 +104,10 @@
                         },
                         "children": [
                             {
-                                "id": "f13e817f-1a54-43a3-85ea-3af1b4ade5b1"
+                                "id": "c6ebb9db-23d7-4960-b255-9e44c79cc7b2"
                             },
                             {
-                                "id": "c6ebb9db-23d7-4960-b255-9e44c79cc7b2"
+                                "id": "f13e817f-1a54-43a3-85ea-3af1b4ade5b1"
                             }
                         ],
                         "id": "bdd0357c-2680-46a7-b44c-75943103dae5",
@@ -151,7 +151,10 @@
                 "cloudinaryAPISecret": null,
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {}
+                        "usageDescriptions": {
+                            "NSCameraUsageDescription": "",
+                            "NSPhotoLibraryUsageDescription": ""
+                        }
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
@@ -162,7 +165,7 @@
                 "appleOAuthWebClientID": null,
                 "appleOAuthWebRedirectURI": null,
                 "admobAppIdIOS": null,
-                "admobAppIdAndroid": null,
+                "admobAppIdAndroid": "ca-app-pub-6616305630859800~4197960765",
                 "admobUserTrackingUsageDescription": null,
                 "__typename": "ProjectSettings"
             },
@@ -197,7 +200,10 @@
                 "cloudinaryAPISecret": null,
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {}
+                        "usageDescriptions": {
+                            "NSCameraUsageDescription": "",
+                            "NSPhotoLibraryUsageDescription": ""
+                        }
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
@@ -208,11 +214,11 @@
                 "appleOAuthWebClientID": null,
                 "appleOAuthWebRedirectURI": null,
                 "admobAppIdIOS": null,
-                "admobAppIdAndroid": null,
+                "admobAppIdAndroid": "ca-app-pub-6616305630859800~4197960765",
                 "admobUserTrackingUsageDescription": null,
                 "__typename": "ProjectSettings"
             },
-            "hasAdmob": false,
+            "hasAdmob": true,
             "hasBluetoothLowEnergy": null,
             "hasPushNotification": false,
             "hasAssistant": null,
