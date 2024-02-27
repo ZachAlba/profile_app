@@ -10,6 +10,9 @@
         },
         "name": {
           "type": "string"
+        },
+        "status": {
+          "type": "string"
         }
       },
       "required": ["image", "name"],
